@@ -1,0 +1,14 @@
+.editor {
+  &-row {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 300px;
+  }
+
+  &-canvas {
+    flex-grow: 1;
+  }
+}

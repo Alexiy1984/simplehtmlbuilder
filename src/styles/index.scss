@@ -1,6 +1,21 @@
-$body-color: slateblue;
+@import 'gjs';
+@import 'panel';
+@import 'editor';
+
+$body-color: #333;
+
+html {
+  * {
+    box-sizing: border-box;
+  }
+}
 
 body {
+  box-sizing: border-box;
+  margin: 0;
   color: $body-color;
   font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
